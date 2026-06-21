@@ -202,7 +202,18 @@ else:
 score = 87
 result = "pass" if score >= 60 else "fail"
 print(result) 
-
+# 4
+command = "start"
+match command:
+    case "start":
+        print("Starting system")
+    case "stop":
+        print("Stopping system")
+    case "restart":
+        print("Restarting system")
+    case _:
+        print("Unknown command")
+                    
 
 
 
