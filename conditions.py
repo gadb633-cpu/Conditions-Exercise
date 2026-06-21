@@ -17,3 +17,12 @@ if number % 2 == 0:
     print("even number") 
 else:
     print("odd number")
+# 4
+battery = 15
+is_charging = True
+if battery > 20:
+    print("battery ok")
+elif battery < 20 and is_charging:
+    print("low battery, charging now")
+elif battery < 20 and is_charging == False:
+    print("low battery, connect charger") 
