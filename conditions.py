@@ -165,7 +165,30 @@ else:
         else:
             print("Free delivery")
 
-                
+# #Part 3
+# Understanding Questions
+# 1
+# if is when I want to do a certain condition
+# elif is when I want to say if it is otherwise but there is a condition
+# else is when I want to say if it is something else then respond like this 
+# 2
+# Because elif is when I want to say everything else with a condition and if is when it's a specific condition.
+# 3
+# trenty is when I want to write a condition briefly in one line that something will be like this if the condition exists and if it doesn't it will change.
+# 4
+# I use match case when I want to compare several values ​​under the same declaration.
+# Practice
+# 1
+status_code = 200
+if status_code == 200:
+    print("ok")
+elif status_code == 404:
+    print("not found")
+elif status_code == 500:
+    print("server error")
+else:
+    print("unknown status")
+                    
 
 
 
