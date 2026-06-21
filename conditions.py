@@ -25,4 +25,12 @@ if battery > 20:
 elif battery < 20 and is_charging:
     print("low battery, charging now")
 elif battery < 20 and is_charging == False:
-    print("low battery, connect charger") 
+    print("low battery, connect charger")
+# 5
+password = input("what your password? ")
+if password == "python123":
+    print("access approve")
+else:
+    print("access denied")
+
+
