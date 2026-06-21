@@ -188,7 +188,24 @@ elif status_code == 500:
     print("server error")
 else:
     print("unknown status")
-                    
+# 2
+role = "admin"
+if role == "admin":
+    print("Full access")
+elif role == "editor":
+    print("Limited access")
+elif role == "viewer":
+    print("Read only")
+else:
+    print("No access")
+# 3
+score = 87
+result = "pass" if score >= 60 else "fail"
+print(result) 
+
+
+
+
 
 
 
