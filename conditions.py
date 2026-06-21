@@ -118,7 +118,41 @@ elif for_an_action == "multiply":
     print(first_number * second_number)
 else:
     print("Unknown action")
-                       
+# 3
+computer_choice = "rock"
+choice_the_user = input("what you choose rock, paper or scissors? ")
+if computer_choice == choice_the_user:
+    print("draw")
+elif choice_the_user == "paper":
+    print("you win")
+elif choice_the_user == "scissors":
+    print("Computer wins")
+elif choice_the_user == "rock":
+    print("draw")
+else:
+    print("Invalid move")
+# 4
+correct_pin = 4321
+balance = 500
+given_pin = int(input("give me the pin "))
+if given_pin != correct_pin:
+    print("Wrong PIN")
+elif given_pin == correct_pin:
+    how_much = int(input("how much money they want to withdraw? "))
+    if how_much > balance:
+        print("not enough money")
+    else:
+        by_receipt = input("they want a receipt by entering? ")
+        if by_receipt == "yes":
+            print("Withdrawal approved with receipt")
+        elif by_receipt == "no":
+            print("Withdrawal approved without receipt")
+        else:
+            print("Withdrawal approved")
+
+
+
+
 
 
             
