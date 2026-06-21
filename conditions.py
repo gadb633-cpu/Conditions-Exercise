@@ -32,5 +32,16 @@ if password == "python123":
     print("access approve")
 else:
     print("access denied")
+# 6
+score = 72
+if score >= 90:
+    print("excellent")
+elif score >= 75:
+    print("good")
+elif score >= 60:
+    print("pass")
+else:
+    print("fail")
+
 
 
