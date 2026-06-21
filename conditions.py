@@ -42,6 +42,17 @@ elif score >= 60:
     print("pass")
 else:
     print("fail")
+# 7
+first_number = int(input("give me first number "))
+second_number = int(input("give me second number "))
+if first_number > second_number:
+    print("first is bigger")
+elif first_number < second_number:
+    print("second is bigger")
+else:
+    print("equal")
+        
+     
 
 
 
