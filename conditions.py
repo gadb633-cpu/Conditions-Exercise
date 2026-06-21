@@ -150,6 +150,23 @@ elif given_pin == correct_pin:
         else:
             print("Withdrawal approved")
 
+# 5
+order_price = float(input("what your order price? "))
+if order_price < 50:
+    print("Order too small for delivery")
+else:
+    club_member = input("you have a club member yes or no? ")
+    if club_member == "no":
+        print("Delivery costs 15")
+    if club_member == "yes":
+        coupon = input("you have coupon yes or no? ")
+        if coupon == "yes":
+             print("Free delivery and 10 discount")
+        else:
+            print("Free delivery")
+
+                
+
 
 
 
