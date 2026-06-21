@@ -51,7 +51,16 @@ elif first_number < second_number:
     print("second is bigger")
 else:
     print("equal")
-        
+# 8
+fuel = 40
+distance = 30
+if fuel - distance >= 10:
+    print("enough fuel with reserve")
+elif fuel - distance < 10:
+    print("enough fuel low reserve")
+else:
+    print("not enough fuel")
+                
      
 
 
