@@ -11,4 +11,9 @@ if temperature > 37.5:
     print("high temperature")
 else:
     print("normal temperature")
-                 
+# 3
+number = int(input("what your number? "))
+if number % 2 == 0:
+    print("even number") 
+else:
+    print("odd number")
