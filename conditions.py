@@ -82,13 +82,31 @@ else:
 place_to_game = input("where you want to go? ")
 match place_to_game:
     case "forest":
-        in_the_forest =(input( "they want to hide or walk? ")) 
+        at_the_forest =(input( "they want to hide or walk? ")) 
         if in_the_forest == "hide":
             print("You hide behind a tree")
         elif in_the_forest == "walk":
             print("You find a sleeping wolf")
         else:
             print("Invalid forest action")
+    case "cave":
+        have_a_torch = "yes"
+        at_the_cave = input(" they have a torch? ")
+        if have_a_torch != at_the_cave:
+            print("It is too dark to enter")
+        elif have_a_torch == at_the_cave:
+            where_want_to_go = (input("they want to go left or right? "))
+            if where_want_to_go == "left":
+                print("You find gold")
+            elif where_want_to_go == "right":
+                print("You find bats")
+            else:
+                print("Invalid cave path")
+
+            
+
+
+
 
      
 
