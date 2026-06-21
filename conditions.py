@@ -76,7 +76,20 @@ elif hour < 18:
     print("afternoon")
 else:
     print("evening")
-                
+
+
+# Part 2
+place_to_game = input("where you want to go? ")
+match place_to_game:
+    case "forest":
+        in_the_forest =(input( "they want to hide or walk? ")) 
+        if in_the_forest == "hide":
+            print("You hide behind a tree")
+        elif in_the_forest == "walk":
+            print("You find a sleeping wolf")
+        else:
+            print("Invalid forest action")
+
      
 
 
