@@ -106,7 +106,20 @@ match place_to_game:
          print("You find a boat")
     case _:
         print("Unknown place")
-                        
+# 2
+first_number = float(input("give me first number "))
+second_number = float(input("give me second number "))
+for_an_action = input("what you choose add, subtract or multiply? ")
+if for_an_action == "add":
+    print(first_number + second_number)
+elif for_an_action == "subtract":
+    print(first_number - second_number)
+elif for_an_action == "multiply":
+    print(first_number * second_number)
+else:
+    print("Unknown action")
+                       
+
 
             
 
