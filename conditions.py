@@ -102,6 +102,11 @@ match place_to_game:
                 print("You find bats")
             else:
                 print("Invalid cave path")
+    case "river":
+         print("You find a boat")
+    case _:
+        print("Unknown place")
+                        
 
             
 
